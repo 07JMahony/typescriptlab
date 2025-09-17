@@ -26,8 +26,3 @@ export interface ColleagueHistory {
 
 
 export const friends = [friend1, friend2];
-
- const colleagues = {
-    current: [colleague1, colleague2, colleague3],
-    former: [],
-  };

@@ -5,16 +5,19 @@ import {Friend, Colleague, ColleagueHistory } from './myTypes'
 
 
 const friend1: Friend = {
-    name: "Paul Fleming",
+    name: "Tomas Corrigan",
     phone: "087-12345",
-    age: 25,
+    age: 22,
   };
   
   const friend2: Friend = {
-    name: "Jane Costello",
-    phone: "086--12345",
-    age: 31,
+    name: "Reeve Thompson",
+    phone: "086-12345",
+    age: 56,
   };
+
+
+export const friends = [friend1, friend2];
   
  // console.log(friends[1]);
   
@@ -48,6 +51,11 @@ const friend1: Friend = {
       email: "dos@company.com",
       extension: 125,
     },
+  };
+
+ export const colleagues = {
+    current: [colleague1, colleague2, colleague3],
+    former: [],
   };
   
   //console.log(colleagues.current[0]);
